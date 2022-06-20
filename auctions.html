@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="auctions.css">
+    <script src="auctions.js"></script>
+    <title>Hysystem - An Hypixel Skyblock profile and auction viewer.</title>
+</head>
+<body>
+    <header>
+        <h1>Hy<span>system</span></h1>
+        <h2><a href="index.html">Profiles</a></h2>
+        <h2><a href="">Auctions</a></h2>
+    </header>
+    <section id="main">
+        <input id='pesquisa' onkeyup='searchAuctions()' type='text'>
+        <label for="accept">
+            <input type="checkbox" id="BIN" name="BIN" value="yes"> BIN 
+         </label>
+        <h2>Itens do leilão</h2>
+        <div class="spinner-border" 
+        role="status" id="loading">
+       <span class="sr-only">Loading...</span>
+        </div>
+        <table id="leilao"></table>
+    </section>
+    <footer>
+        <h3>HugoRibeiroIPS - 2022</h3>
+    </footer>
+    
+</body>
+</html>

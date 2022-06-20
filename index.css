@@ -1,0 +1,64 @@
+body 
+    {   
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin:0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+header 
+    {   
+        display:flex;
+        justify-content: space-around;
+        height: 5vmax;
+        background-color:#595856;
+        width: 100%;
+        font-size: 2vmin;
+    }
+
+header h1 
+    {
+        color:rgb(38, 230, 255)
+    }
+
+header h1 span 
+    {
+        color:rgb(50, 120, 129)
+    }
+
+header h2 a 
+    {
+        text-decoration: none;
+        color:white;
+    }
+
+#main
+    {
+        margin:auto;
+        font-size: 2vmax;
+    }
+
+#main #search
+    {
+        padding: 2vh 2vh 2vh 2vh;
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+
+#main #search input 
+    {
+        padding: 1vh 0 1vh 0;
+        text-align: center;
+        font-size: 2vmax;
+    }
+
+footer
+    {
+        border-top:1px solid #595856;
+        margin-top: auto;
+        font-size: 2vh;
+        text-align: right;
+        padding-right: 5vw;
+        width:95%;
+    }
